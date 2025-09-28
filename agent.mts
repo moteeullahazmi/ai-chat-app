@@ -70,9 +70,9 @@ const run = async () => {
   const azamgarhWeather = await safeInvoke("What is the current weather in Azamgarh?", "42");
   console.log("Azamgarh Weather:", azamgarhWeather);
 
-  console.log("\nAsking about New York weather...");
-  const nyWeather = await safeInvoke("What about New York?", "42");
-  console.log("New York Weather:", nyWeather);
+  console.log("\nAsking about Dubai weather...");
+  const nyWeather = await safeInvoke("What about Dubai ?", "42");
+  console.log("Dubai Weather:", nyWeather);
 };
 
 run();
