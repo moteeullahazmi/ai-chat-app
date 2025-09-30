@@ -5,8 +5,8 @@ import { HumanMessage } from "@langchain/core/messages";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
 
 // 1. Set your API keys (replace with your own keys)
-process.env.OPENAI_API_KEY = "abcdefghijklmnopqrstuvwxyz";   // Get from OpenAI
-process.env.TAVILY_API_KEY = "abcdefghijklmnopqrstuvwxyz"; // Get from Tavily
+process.env.OPENAI_API_KEY = "xxxxxxxxxxxx";   // Get from OpenAI
+process.env.TAVILY_API_KEY = "xxxxxxxxxxxx"; // Get from Tavily
 
 async function wait(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
